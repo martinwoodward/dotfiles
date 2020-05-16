@@ -1,0 +1,22 @@
+# GitIgnore for dotfile
+# Don't wanna accidentally push secrets...
+
+.DS_Store
+*~
+ssh/id*
+ssh/environment*
+ssh/known_hosts
+ssh/master/*
+gnupg/crls.d/*
+gnupg/openpgp-revocs.d/*
+gnupg/private-keys-v1.d/*
+gnupg/.gpg-v21-migrated
+gnupg/gpg-agent.env
+gnupg/private*
+gnupg/random*
+gnupg/sshcontrol
+gnupg/*~
+gnupg/*.gpg
+gnupg/*.kbx
+gnupg/*.lock
+
